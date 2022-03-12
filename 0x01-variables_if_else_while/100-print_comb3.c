@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -9,15 +7,27 @@
  */
 int main(void)
 {
-int comb_3;
-for (comb_3 = 0; comb_3 < 90; comb_3++)
+int num_1, num_2;
+for (num_1 = 48; num_1 <= 57; num_1++)
 {
-putchar((comb_3 / 10) + '0');
-putchar((comb_3 % 10) + '0');
-if (comb_3 != 89)
+for (num_2 = 48; num_2 <= 57; num_2++)
 {
-putchar(',');
+if (num_1 == num_2 || num_1 <= num_2)
+{
+}
+else
+{
+putchar(num_1);
+putchar(num_2);
+if (num_1 == 56 && num_2 == 57)
+{
+}
+else
+{
+putchar(44);
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
