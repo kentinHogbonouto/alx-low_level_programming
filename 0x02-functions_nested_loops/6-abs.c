@@ -1,3 +1,7 @@
+/*
+ * File: 6-abs.c
+ */
+
 #include "main.h"
 
 /**
@@ -13,3 +17,4 @@ int _abs(int t)
 	else
 		return (-t);
 }
+

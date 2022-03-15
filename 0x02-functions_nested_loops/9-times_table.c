@@ -1,3 +1,7 @@
+/*
+ * File: 9-times_table.c
+ */
+
 #include "main.h"
 
 /**
@@ -28,3 +32,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
+
