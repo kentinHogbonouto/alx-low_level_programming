@@ -1,4 +1,5 @@
 # alx-low_level_programming
-0x00. C - Hello, World </br>
-beautiful the header of my files isn't it? You can make your own with this open source project. very easy to use
+0. Multiple mains
+1. Like, comment, subscribe
+3. Leap year
 
