@@ -3,16 +3,17 @@
 
 #include <stdio.h>
 
-int _isupper(int l);
-int _isdigit(int x);
-int mul(int w, int y);
-int _putchar(char x);
+int _isupper(int d);
+int _isdigit(int c);
+int mul(int a, int b);
+int _putchar(char c);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
-void print_line(int s);
-void print_diagonal(int s);
-void print_square(int s);
-void print_triangle(int s);
-void print_number(int s);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int n);
+void print_triangle(int n);
+void print_number(int n);
+
 #endif
