@@ -9,11 +9,15 @@
  */
 int main(void)
 {
-int comb;
-for (comb = '0'; comb <= '9'; comb++)
+int comb_3;
+for (comb_3 = 0; comb_3 < 90; comb_3++)
 {
-putchar(comb);
-if (comb != '9')
+for ()
+{
+putchar((comb_3 / 10) + '0');
+putchar((comb_3 % 10) + '0');
+}
+if (comb_3 != 89)
 {
 putchar(',');
 putchar(' ');
