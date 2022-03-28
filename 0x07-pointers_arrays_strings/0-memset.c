@@ -1,7 +1,5 @@
-#include "main.h"
-
 /**
- *_memeset - function declaration
+ *_memset - function declaration
  *@s: First parameter
  *@b: second parameter
  *@n: third parameter
