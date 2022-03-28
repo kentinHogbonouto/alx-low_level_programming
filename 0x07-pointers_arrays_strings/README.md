@@ -5,3 +5,4 @@ This  pointers whitin the arrays and string project in c programming, involve th
 - 0. memset
 - 1. memcpy
 - 2. strchr
+- 3. strspn
