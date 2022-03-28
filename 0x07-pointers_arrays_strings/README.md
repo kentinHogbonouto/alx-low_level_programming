@@ -6,3 +6,4 @@ This  pointers whitin the arrays and string project in c programming, involve th
 - 1. memcpy
 - 2. strchr
 - 3. strspn
+- 4. strpbrk
