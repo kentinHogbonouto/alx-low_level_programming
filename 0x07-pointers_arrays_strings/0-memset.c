@@ -15,7 +15,7 @@ unsigned int i = 0;
 for (i = 0; i < n; i++)
 {
 s[i] = b;
-n--
+n--;
 }
 return (s);
 }
