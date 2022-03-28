@@ -8,3 +8,4 @@ This  pointers whitin the arrays and string project in c programming, involve th
 - 3. strspn
 - 4. strpbrk
 - 5. strstr
+- 6. Chess is mental torture
