@@ -4,13 +4,9 @@
 
 /**
 
- * print_chessboard - prints chessboard.
+ * print_chessboard - prints the chessboard
 
- *
-
- * @a: rows.
-
- * Return: nothing.
+ * @a: pointer to the first row in the matrix
 
  */
 
@@ -22,17 +18,17 @@ void print_chessboard(char (*a)[8])
   
 
   
-  for (i = 0; i < 8; i++)
+  for (i = 1; i <= 8; i++)
     
     {
       
       for (j = 0; j < 8; j++)
 	
-	{
-	  
-	  _putchar(a[i][j]);
-	  
-	}
+	_putchar(a[0][j]);
+      
+
+      
+      a++;
       
       _putchar('\n');
       
