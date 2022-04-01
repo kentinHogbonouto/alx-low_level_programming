@@ -9,16 +9,11 @@
  */
 int main(void)
 {
-int comb;
-for (comb = '0'; comb <= '9'; comb++)
-{
-putchar(comb);
-if (comb != '9')
-{
-putchar(',');
-putchar(' ');
-}
-}
+char alpha_bet;
+for (alpha_bet = 'a'; alpha_bet <= 'z'; alpha_bet++)
+putchar(low);
+for (alpha_bet = 'A'; alpha_bet <= 'Z'; alpha_bet++)
+putchar(alpha_bet);
 putchar('\n');
 return (0);
 }
