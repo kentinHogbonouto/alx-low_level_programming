@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include UNUSED(x) (void)(x)
+#define UNUSED(x) (void)(x)
 
 /**
  *main - function declation
