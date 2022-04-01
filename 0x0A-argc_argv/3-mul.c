@@ -12,9 +12,7 @@ intft_atoi(const char *str)
 intn;
 intsign;
 n = 0;
-while (*str == ' ' || *str == '\t' || *str == '\v' || *str == '\r' ||
-	 
-	 *str == '\n' || *str == '\f')
+while (*str == ' ' || *str == '\t' || *str == '\v' || *str == '\r' || *str == '\n' || *str == '\f')
 str++;
 sign = *str == '-' ? -1 : 1;
 if (sign == -1 || *str == '+')
