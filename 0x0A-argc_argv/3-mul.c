@@ -1,47 +1,23 @@
-#include<stdio.h>
-#define UNUSED(x) (void)(x)
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * ft_atoi - function
- *
- * @str: the chaine
- * Return: Always 0.
+ * main - prints multiplication
+ *of two numbers
+ *@argc: number of arguments
+ *@argv: array of arguments
+ *Return: returns 0
  */
-intft_atoi(const char *str)
+int main(int argc, char *argv[])
 {
-intn;
-intsign;
-n = 0;
-while (*str == ' ' || *str == '\t' || *str == '\v' || *str == '\r' || *str == '\n' || *str == '\f')
-str++;
-sign = *str == '-' ? -1 : 1;
-if (sign == -1 || *str == '+')
-str++;
-while (*str)
-{
-if (*str >= '0' && *str <= '9')
-n = n * 10 + (*str - '0');
-else
-break;
-str++;
-}
-return (n * sign);
-}
-/**
- * main - function
- *
- * @argv: the chaine of chaine
- * @argc: the int
- * Return: Always 0.
- */
-int main(int argc, char **argv)
-{
-UNUSED(argc);
-if (argc != 3)
+int i, j, mul;
+if (argc <= 2)
 {
 printf("Error\n");
-return (0);
+return (1);
 }
-printf("%d\n", ft_atoi(argv[1]) * ft_atoi(argv[2]));
+i = atoi(argv[1]);
+j = atoi(argv[2]);
+mul = i * j;
+printf("%d\n", mul);
 return (0);
 }
