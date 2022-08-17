@@ -12,7 +12,7 @@ void shash_table_delete(shash_table_t *ht);
  * @size: The size of new sorted hash table.
  *
  * Return: If an error occurs - NULL.
- *         Otherwise - a pointer to the new sorted hash table.
+ *       
  */
 shash_table_t *shash_table_create(unsigned long int size)
 {
@@ -125,7 +125,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
  * @key: The key to get the value of.
  *
  * Return: If the key cannot be matched - NULL.
- *         Otherwise - the value associated with key in ht.
+ *         
  */
 char *shash_table_get(const shash_table_t *ht, const char *key)
 {
