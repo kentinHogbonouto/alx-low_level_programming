@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef SEARCH_ALGOS_H
 #define SEARCH_ALGOS_H
 
@@ -49,3 +50,11 @@ skiplist_t *linear_skip(skiplist_t *list, int value);
 
 
 #endif /* SEARCH_ALGO_H */
+=======
+#ifndef LINEAR_SEARCH_ALGO_H
+#define LINEAR_SEARCH_ALGO_H
+
+int linear_search(int *array, size_t size, int value);
+
+#endif /*LINEAR_SEARCH_ALGO_H*/
+>>>>>>> 2a87ddbd312b39733112ea1c900c711fb10fd0f1
