@@ -1,17 +1,14 @@
-#ifndef SEARCH_ALGOS_H
-#define SEARCH_ALGOS_H
+#ifndef LINEAR_SEARCH_H
+#define LINEAR_SEARCH_H
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stddef.h>
 
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
+void print_array(int *array, size_t left, size_t right);
 int jump_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
-int advanced_binary(int *array, size_t size, int value);
-listint_t *jump_list(listint_t *list, size_t size, int value);
-skiplist_t *linear_skip(skiplist_t *list, int value);
+int type2_binary_search(int *array, size_t left, size_t right, int value);
 
-
-#endif /* SEARCH_ALGO_H */
+#endif/* SEARCH_ALGO_H */
